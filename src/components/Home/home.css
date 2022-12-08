@@ -1,0 +1,97 @@
+
+.home {
+    display: flex;
+    width: 100%;
+    min-height: 92vh;
+    background: transparent;
+
+}
+.home-container {
+    align-self: flex-end;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Product Sans', sans-serif;    
+}
+
+.home-greeting {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #145DA0;
+}
+
+.home-name {
+    font-size: 15rem;
+    font-weight: bold;
+}
+.home-bio {
+    font-size: 2.2rem;
+    font-weight: normal;
+    white-space: normal;
+    word-wrap: normal;
+}
+@media screen and (max-width: 1060px) {
+    .home-name {
+        font-size: 13rem;
+        font-weight: bold;
+    }
+
+}
+
+
+@media screen and (max-width: 980px) {
+    .home-container {
+        align-self: flex-end;
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+        color: rgb(0, 0, 0);
+        font-family: 'Product Sans', sans-serif;    
+    }
+
+    .home-greeting {
+        font-size: 4rem;
+        font-weight: bold;
+        color: #145DA0;
+    }
+    
+    .home-name {
+        font-size: 8rem;
+        font-weight: bold;
+    }
+    .home-bio {
+        font-size: 1.5rem;
+        font-weight: normal;
+        white-space: normal;
+        word-wrap: normal;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .home-container {
+        align-self: flex-end;
+        margin-left: 2rem;
+        margin-bottom: 4rem;
+        color: rgb(0, 0, 0);
+        font-family: 'Product Sans', sans-serif;    
+    }
+
+    .home-greeting {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #145DA0;
+        word-spacing: 100vw;
+    }
+    
+    .home-name {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .home-bio {
+        font-size: 1.5rem;
+        font-weight: normal;
+        white-space: normal;
+        word-wrap: normal;
+    }
+
+}

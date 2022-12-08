@@ -1,5 +1,5 @@
 import React from "react"
-import "./style.css";
+import "./navbar.css";
 
 export default function Navbar(){
 
@@ -13,13 +13,13 @@ export default function Navbar(){
         burger.classList.toggle('toggle')
         
         navLink.forEach(button => button.addEventListener('click', closeMenu));
-
         function closeMenu(){
             burger.classList.remove('toggle')
             navbar.classList.remove('navbar-active')
         }
     }
 
+    // Scroll to top on click
     React.useEffect(() => {
         // 👇️ scroll to top on page load
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});

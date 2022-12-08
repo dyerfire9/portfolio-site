@@ -7,13 +7,12 @@
 }
 
 .header{
-    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
-    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
-    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    -moz-box-shadow:0 5px 5px rgba(71, 71, 71, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(85, 83, 83, 0.75);
+    box-shadow: 0 5px 5px rgba(80, 79, 79, 0.75);
 }
 
 .navbar {
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -157,3 +156,5 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  /* Home Componenet */
