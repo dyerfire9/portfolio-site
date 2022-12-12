@@ -32,7 +32,7 @@ export default function Navbar(){
     return (
         <div className="header">
             <nav className="navbar">
-                <div className="navbar-name" onclick={toTop}>Abdul Mannan</div>
+                <div className="navbar-name" onClick={toTop}>Abdul Mannan</div>
                
                 <ul className="navbar-links">
                     <li><a href="#" className="nav-link hover-ani">Software</a></li>

@@ -1,0 +1,8 @@
+.projectsCard-container{
+    border-radius: 10px;
+    width: 550px;
+    height: 350px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0.3vw 0.6vw 0 #00000066;
+}

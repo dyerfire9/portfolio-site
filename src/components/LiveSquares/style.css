@@ -26,7 +26,8 @@
     background: transparent;
     animation: float 25s linear infinite;
     bottom: -150px;
-    background-image: linear-gradient(to right, #1580be, #88cde4);
+    /* #c5d0f4,#1580be */
+    background-image: linear-gradient(to right, #1580be, #A1BAFE);
     width: 10vw;
     height: 10vw;
     box-shadow: 0 0.2vw 0.5vw 0.1vw #0000003f;

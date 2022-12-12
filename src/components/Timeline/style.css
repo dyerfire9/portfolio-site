@@ -1,0 +1,32 @@
+
+.timeline {
+    width: 100%;
+    min-height: 50vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #ffffff;
+    /* #c5d0f4,#1580be */
+    background-image: linear-gradient(to right, #c5d0f4,#1580be);
+}
+
+.title {
+    font-family: 'Product Sans', sans-serif;
+    font-size: 6rem;
+}
+
+.timeline-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 960px) {
+    .timeline {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

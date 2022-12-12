@@ -1,0 +1,39 @@
+.card{  
+        width: 170px;
+        height: 219px;
+        margin: 10px;
+        transition: 250ms;
+        cursor: pointer;
+        box-shadow: 0 0.3vw 0.6vw 0 #00000066;
+    }
+
+.card-img {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #ffffff;
+    background-image: linear-gradient(to right, #c5d0f4,#1580be);
+    background-attachment: fixed;
+    box-shadow: 0 0.1vw 0.2vw 0 #00000066;
+    user-select: none;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    padding: 25px;
+    filter: drop-shadow(0px 0.3vw 0.6vw #00000083);
+}
+
+.card-name{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #003060;
+    width: 100%;
+    text-align: center;
+}
