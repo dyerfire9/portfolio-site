@@ -32,3 +32,10 @@
     transform: scale(1.1);
     transition: 0.5s ease;
     }
+
+@media screen and (max-width: 980px){
+    .software-title{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 5rem;
+    }
+    }

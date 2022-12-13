@@ -4,6 +4,7 @@ import Home from './components/Home/Home'
 import Software from './components/Software/Software'
 import Timeline from './components/Timeline/Timeline'
 import Projects from './components/Projects/Projects'
+import ProjectsModal from './components/Projects/ProjectsModal/ProjectsModal'
 
 import LiveSquares from './components/LiveSquares/LiveSquares';
 import 'bootstrap/dist/css/bootstrap.min.css';

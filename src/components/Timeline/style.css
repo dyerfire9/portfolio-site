@@ -29,4 +29,9 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+    .title {
+        font-family: 'Product Sans', sans-serif;
+        font-size: 5rem;
+    }
+    
 }
