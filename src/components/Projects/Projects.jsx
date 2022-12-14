@@ -9,11 +9,13 @@ export default function Projects(){
     let [isOpen, setIsOpen] = React.useState(({
         isOpen: false,
         item: {
-            title: '',
-            description: '',
-            features: [''],
-            link: '',
-            img: ''
+            title: 'Dungeon Escape',
+            description: 'A Retro Dungeon Escape game inspired from the Retro Legend of Zelda games.',
+            features: ['Many different objects to seed the map',
+                       'Interact with these different objects (ie: push the rocks to clear the path to the exit)',
+                       'Dynamic Editing system to test the game while editing the map'],
+            link: 'https://github.com/dyerfire9/Dungeon-Escape',
+            img: 'dungeone.jpg'
         }}))
 
 
@@ -28,7 +30,7 @@ export default function Projects(){
                         )
                     })}            
             </div>
-            <ProjectsModal state={isOpen} changeState={setIsOpen}/>
+            <ProjectsModal image={isOpen.item.img} state={isOpen} changeState={setIsOpen}/>
         </div>
     )
 }
