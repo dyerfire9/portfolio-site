@@ -1,9 +1,11 @@
 import React from "react"
 import "./style.css"
 import img from "../images/blocky.png"
-import LiveSquares from '../../LiveSquares/LiveSquares';
+import { FaGithub } from 'react-icons/fa';
 
 export default function ProjectsModal(props){   
+    const style = { color: "white", fontSize: "1.2em", display:'inline-flex', 'vertical-align': 'text-top'}
+
     function toggle(){
         props.changeState(prevVal => ({...prevVal, isOpen: !prevVal.isOpen}))
     }
@@ -25,7 +27,7 @@ export default function ProjectsModal(props){
                         {props.state.item.features.map(feature => <li>{feature}</li>)}
                     </ul>
                 </div>
-                <div className="modal-link"><a href={props.state.item.link} target='blank'>View Project</a></div>
+                <div className="modal-link"><a href={props.state.item.link} target='blank'><FaGithub style={style}/> View Project</a></div>
             </div>
         </div>
     )

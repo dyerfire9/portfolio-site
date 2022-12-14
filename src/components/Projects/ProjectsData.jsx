@@ -21,7 +21,7 @@ export default [
     },
     {
         title: 'Blocky',
-        description: 'A puzzle game which has different coloured squares on the screen. The user can choose 3 different levels and will rotate, flip, shake and smash the blocks to try and get one large solid coloured block.',
+        description: 'A puzzle game which has different coloured squares on the screen & one must use the given abilities to solve the puzzle',
         features: [''],
         link: 'https://github.com/dyerfire9/Blocky',
         img: 'blocky.png'
