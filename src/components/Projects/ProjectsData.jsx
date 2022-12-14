@@ -3,7 +3,7 @@
 export default [
     {
         title: 'Dungeon Escape',
-        description: 'A Retro Dungeon Escape game inspired from the Retro Legend of Zelda games. The game allows one to seed a map with different objects such as monsters and teleporters and play through it while earning points.',
+        description: 'A Retro Dungeon Escape game inspired from the Retro Legend of Zelda games.',
         features: ['Many different objects to seed the map',
                    'Interact with these different objects (ie: push the rocks to clear the path to the exit)',
                    'Dynamic Editing system to test the game while editing the map'],

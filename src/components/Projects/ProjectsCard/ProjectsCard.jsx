@@ -1,16 +1,24 @@
 import React from "react"
-import ProjectsModal from '../ProjectsModal/ProjectsModal'
 import "./style.css"
 
 export default function ProjectsCard(props){
-    let item = props.item    
+    const content = props.item    
+
+    function toggle(content){
+        props.changeState(prevVal => ({...prevVal, 
+            isOpen: !prevVal.isOpen,
+            item: content
+        }), props.state)
+            
+            console.log("Hi", props.state)
+    }
 
     return(
-        <div className="projectsCard-container" onClick={() => props.handleClick(item)}>
+        <div className="projectsCard-container" onClick={() => toggle(content)}>
             <div className="projectcard-img">
-                <img src={require(`../images/${item.img}`)} />
+                <img src={require(`../images/${content.img}`)} />
             </div>
-            <h3 className="projectsCard-title">{item.title}</h3>
+            <h3 className="projectsCard-title">{content.title}</h3>
         </div>
         
     )

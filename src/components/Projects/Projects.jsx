@@ -16,23 +16,19 @@ export default function Projects(){
             img: ''
         }}))
 
-    function toggle(content){
-        if(content){
-            setIsOpen(prevVal => ({...prevVal, item: {title: content.title, description: content.description, features: content.features, link: content.link, img: content.link}}))
-        }
-        console.log('hi', isOpen)
-    }
+
+
     return(
         <div className="project">
             <h2 className="project-title">Projects</h2>
             <div className="project-container">
                 {ProjectsData.map((item, index) => {
                         return (
-                            <ProjectsCard key={index} item={item} handleClick={(item) => toggle(item)}/>
+                            <ProjectsCard key={index} item={item} state={isOpen} changeState={setIsOpen}/>
                         )
                     })}            
             </div>
-            {isOpen && <ProjectsModal isOpen={isOpen}/>}
+            <ProjectsModal state={isOpen} changeState={setIsOpen}/>
         </div>
     )
 }

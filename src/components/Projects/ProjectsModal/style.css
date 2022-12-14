@@ -9,27 +9,86 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+    /* Centers all components */
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
 
   .modal-container {
-    min-height: 100%;
-    z-index: 1; /* Sit on top */
-
+    position: relative;
+    border-radius: 10px;
+    min-height: 700px;
+    width: 500px;
+    margin: 5%;
+    background-color: white;
   }
   
-  /* Modal Content/Box */
-  .modal-title {
+  .modal-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .modal-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+    filter: drop-shadow(0px 0.2vw 0.2vw #00000083);
+  }
+  .modal-desc{
+    min-height: 180px;
+    max-height: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border: 1px solid;
+  }
+
+.modal-header button {
+    position:absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 28px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    z-index: 1;
+}
+.modal-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 10px;
+    height: 9%;
+}
+.modal-link a {
+    border: 1px solid #003060;
+    background: #003060;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Modal Content/Box */
+.modal-title {
     background-color: #fefefe;
     color: #003060;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
+    text-align: center;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+
 .modal-open {
     display: flex;
-    opacity: 0;
+    opacity: 1;
     animation: modal-anim 0.25s forwards;
 }
 
