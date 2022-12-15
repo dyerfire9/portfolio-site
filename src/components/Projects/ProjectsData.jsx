@@ -35,7 +35,7 @@ export let ProjectsData = [
     {
         title: 'Portfolio Website',
         description: 'A light and responsive website which showcases my Skills & Achievements, Projects and Education.',
-        features: ['This is an updated version of my legacy portfolio site that was coded in HTML, CSS, & JS',
+        features: ['This is an updated version of my portfolio site',
                    'This site uses the React framework with a refreshed UI/UX',
                    'Optimized for both desktop & mobile browsers',
                    'Technologies: React, JavaScript, HTML, CSS'],
