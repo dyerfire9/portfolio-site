@@ -5,6 +5,7 @@ import { RiCloseLine } from "react-icons/ri";
 
 export default function ProjectsModal(props){   
     let modal = document.getElementById('projects-modal');
+    let burger = document.getElementById('navburger');
     const style1 = { color: "white", fontSize: "1.2em", display:'inline-flex', 'verticalAlign': 'text-top'}
     const style2 = { color:"white", fontSize: "1.5em"}
 

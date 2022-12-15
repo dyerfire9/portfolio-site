@@ -12,8 +12,8 @@
     box-shadow: 0 5px 5px rgba(80, 79, 79, 0.75);
     z-index: 99999;
     width: 100%;
-    /* position: fixed;
-    top: 0; */
+    position: fixed;
+    top: 0;
 }
 
 .navbar {

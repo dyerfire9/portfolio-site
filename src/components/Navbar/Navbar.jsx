@@ -42,7 +42,7 @@ export default function Navbar(){
                     <li><a href="#" className="nav-link hover-ani">Contact</a></li>
                 </ul>
         
-                <div className="navburger" onClick={navSlide}>
+                <div id="navburger"className="navburger" onClick={navSlide}>
                     <div className="burger-line1"></div>
                     <div className="burger-line2"></div>
                     <div className="burger-line3"></div>
