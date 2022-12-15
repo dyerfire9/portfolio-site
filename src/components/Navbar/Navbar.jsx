@@ -21,7 +21,7 @@ export default function Navbar(){
 
     // Scroll to top on click
     React.useEffect(() => {
-        // 👇️ scroll to top on page load
+        // 
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
       }, []);
 

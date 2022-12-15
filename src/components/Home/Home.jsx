@@ -1,5 +1,4 @@
 import React from "react"
-import LiveSquares from '../../components/LiveSquares/LiveSquares';
 import "./home.css";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
 
     return(
         <div className="home">
-            <LiveSquares/>
             <div className='home-container'>
                 <h2 className="home-greeting">{greeting}</h2>
                 <h1 className="home-name"> I'm Abdul</h1>
