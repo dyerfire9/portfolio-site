@@ -44,7 +44,7 @@ export let ProjectsData = [
     },
     {
         title: 'Blocky',
-        description: 'A puzzle game which has different coloured blocks on the screen & one must use the given abilities to get one solid block',
+        description: 'A puzzle game which has different coloured blocks & one must use the given abilities to get one solid block',
         features: ['3 levels of difficulty with a different collage of blocks', 
                    'Rotate, Flip, Shake or Smash the blocks to get one solid colour',
                    'Interactive UI & use keyboard to control',

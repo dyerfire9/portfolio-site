@@ -25,7 +25,7 @@ export default function ProjectsModal(props){
                 <div className="modal-desc">
                     <h2>Features:</h2>
                     <ul>
-                        {props.state.item.features.map(feature => <li key={`${feature.indexOf(feature)}`}>{feature}</li>)}
+                        {props.state.item.features.map((feature, index) => <li key={index}>{feature}</li>)}
                     </ul>
                 </div>
                 <div className="modal-link"><a href={props.state.item.link} target='blank'><FaGithub style={style1}/> View Project</a></div>
