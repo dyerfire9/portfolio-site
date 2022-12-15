@@ -1,9 +1,11 @@
 import React from "react"
 import "./style.css"
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub} from 'react-icons/fa';
+import { RiCloseLine } from "react-icons/ri";
 
 export default function ProjectsModal(props){   
-    const style = { color: "white", fontSize: "1.2em", display:'inline-flex', 'verticalAlign': 'text-top'}
+    const style1 = { color: "white", fontSize: "1.2em", display:'inline-flex', 'verticalAlign': 'text-top'}
+    const style2 = { color:"white", fontSize: "1.5em"}
 
     function toggle(){
         props.changeState(prevVal => ({...prevVal, isOpen: !prevVal.isOpen}))
@@ -11,7 +13,7 @@ export default function ProjectsModal(props){
     return(
         <div className={`projects-modals ${props.state.isOpen ? 'modal-open' : 'modal-closed'}`}>
             <div className="modal-container">
-                <div className="modal-header" onClick={toggle}> <button>X</button></div>
+                <div className="modal-header" onClick={toggle}> <button><RiCloseLine style={style2}/></button></div>
 
                 <div className="modal-image">
                     <img src={require(`../images/${props.image}`)}/>
@@ -26,7 +28,7 @@ export default function ProjectsModal(props){
                         {props.state.item.features.map(feature => <li key={`${feature.indexOf(feature)}`}>{feature}</li>)}
                     </ul>
                 </div>
-                <div className="modal-link"><a href={props.state.item.link} target='blank'><FaGithub style={style}/> View Project</a></div>
+                <div className="modal-link"><a href={props.state.item.link} target='blank'><FaGithub style={style1}/> View Project</a></div>
             </div>
         </div>
     )

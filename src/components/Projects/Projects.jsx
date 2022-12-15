@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectsData from './ProjectsData'
+import{ProjectsData} from './ProjectsData'
 import ProjectsCard from './ProjectsCard/ProjectsCard'
 import ProjectsModal from './ProjectsModal/ProjectsModal'
 import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
