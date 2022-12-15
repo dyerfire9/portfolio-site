@@ -8,7 +8,7 @@ export let ProjectsData = [
                    'Automatically remove duplicate links / leads',
                    'Download all leads in the form of a text file (.txt)',
                    'Auto save function so that one can pick up where they left off',
-                   'Technologies: JavaScript, HTML, CSS'],
+                   'Technologies: React, JavaScript, HTML, CSS'],
         link: 'https://github.com/dyerfire9/Leads-Tracker-Chrome-Extension',
         img: 'ltrkr.jpg'
     },
@@ -59,14 +59,14 @@ export let ProjectsData = [
                    'View Resume in PDF viewer & download it',
                    'Optimized for both desktop & mobile browsers',
                    'Technologies: R, tidyverse & libraries'],
-        link: 'https://github.com/dyerfire9/portfolio-site',
+        link: 'https://github.com/dyerfire9/Data-Analysis-Portfolio',
         img: 'stats.jpg'
     },
     {
         title: 'Handy Calculator',
         description: 'A Calculator Chrome Extension that can perform quick and simple calculations',
         features: ['Quickly & Efficiently do simple arithmetic calculations',
-                   'Highly interactive UI for efficiency',
+                   'Respnsive UI for efficiency',
                    'Copy results quickly',
                    'Technologies: JavaScript, HTML, CSS'],
         link: 'https://github.com/dyerfire9/Calculator-Extension',
@@ -77,7 +77,7 @@ export let ProjectsData = [
         description: 'A game that hosts a collection of games that were also created by me: Blackjacks or A Trivia Game',
         features: ['Interactive UI',
                    'Ability to switch back and fourth between games',
-                   'Mouse & Keyboard input options',
+                   'Both Mouse & Keyboard input options',
                    'Technologies: Java'],
         link: 'https://github.com/dyerfire9/Game-Menu',
         img: 'Trivia.png'
