@@ -28,15 +28,15 @@ class EducationItemContainer extends Component {
                                 )
                             }
 
-                            else{
+                            else {
                                 return(
-                                    <div>
-                                         <li key={index} dangerouslySetInnerHTML={{__html: item.title}}></li>
+                                    <div key={index}>
+                                        <li dangerouslySetInnerHTML={{__html: item.title}}></li>
                                         <ul>
-                                        {item.list.map((value, index) => {
-                                            return (<li key={index} dangerouslySetInnerHTML={{__html: value}}></li>)
-                                        })
-                                        }
+                                            {item.list.map((value, index) => {
+                                                return (<li key={index} dangerouslySetInnerHTML={{__html: value}}></li>)
+                                            })
+                                            }
                                         </ul>
                                     </div>
 
