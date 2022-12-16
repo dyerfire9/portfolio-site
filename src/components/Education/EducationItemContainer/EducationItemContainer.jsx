@@ -19,11 +19,30 @@ class EducationItemContainer extends Component {
                 </label>
                 <div className={`education-item-content ${this.state.open ? 'education-content-open' : 'education-content-closed'}`}>
                     <ul>
-                        
+
                         {this.props.item.descriptionItems.map((item, index) => {
-                            return (
-                                <li key={index} dangerouslySetInnerHTML={{__html: item}}></li>
-                            )
+
+                            if (item.list.length === 0){
+                                return (
+                                    <li key={index} dangerouslySetInnerHTML={{__html: item.title}}></li>
+                                )
+                            }
+
+                            else{
+                                return(
+                                    <div>
+                                         <li key={index} dangerouslySetInnerHTML={{__html: item.title}}></li>
+                                        <ul>
+                                        {item.list.map((value, index) => {
+                                            return (<li key={index} dangerouslySetInnerHTML={{__html: value}}></li>)
+                                        })
+                                        }
+                                        </ul>
+                                    </div>
+
+                                )
+                            }
+
                         })}
                     </ul>
                 </div>
