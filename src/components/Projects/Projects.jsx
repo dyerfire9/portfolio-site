@@ -18,8 +18,6 @@ export default function Projects(){
             img: 'dungeone.jpg'
         }}))
 
-
-
     return(
         <div className="project">
             <h2 className="project-title">Projects</h2>

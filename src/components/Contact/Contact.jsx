@@ -1,7 +1,9 @@
 import React from "react"
 import "./style.css";
-import { BsLinkedin, BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import resume from './Resume/resume.pdf'
+import { BsLinkedin, BsGithub, BsArrowUpRightSquare, BsDownload, BsFillFileEarmarkPdfFill } from "react-icons/bs";
 import { MdEmail, MdContentCopy} from "react-icons/md";
+import { saveAs } from 'file-saver';
 
 export default function Contact() {
     const style1 = {color: "#145DA0", fontSize: "1.5em", verticalAlign: "middle"}
@@ -12,9 +14,13 @@ export default function Contact() {
 
         navigator.clipboard.writeText(email)
         tag.textContent='Copied'
-        setTimeout(() => {tag.textContent='Copy Email'}, 3000);
+        setTimeout(() => {tag.textContent='Copy Email'}, 1000);
     }
-    
+
+    function saveFile(){
+        saveAs(resume, "Muhammad Abdul Mannan.pdf")
+    }
+
     return (
         <div className="contact">
             <h2 className="contact-title">Contact</h2>
@@ -26,6 +32,7 @@ export default function Contact() {
                 </a>
                 <a className="contact-linkedin" href="https://linkedin.com/in/abdulmannancomp" target="_blank"><BsLinkedin style={style1}/> Linkedin <BsArrowUpRightSquare style={style1}/></a>
                 <a className="contact-github" href="https://github.com/dyerfire9" target="_blank">< BsGithub style={style1}/> GitHub <BsArrowUpRightSquare style={style1}/></a>
+                <a className="contact-github" target="_blank" onClick={saveFile} >< BsFillFileEarmarkPdfFill style={style1}/> Resume <BsDownload style={style1}/></a>
             </div>
         </div>
     )
