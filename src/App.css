@@ -18,5 +18,4 @@ body::-webkit-scrollbar-track {
  
 body::-webkit-scrollbar-thumb {
   background-color: #145DA0;
-  outline: 1px solid slategrey;
 }

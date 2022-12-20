@@ -14,7 +14,7 @@
     width: 100%;
     display: grid;
     position: relative;
-    background-image: linear-gradient(to right, #c5d0f4, #1580be);
+    background-image: linear-gradient(to right, #C7E9FB, #1580be);
     box-shadow: 0 0.2vw 0.5vw 0 #00000066;
     overflow: hidden;
     cursor: pointer;

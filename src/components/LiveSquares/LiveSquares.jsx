@@ -19,6 +19,7 @@ export default function LiveSquares() {
                     <li></li>
                     <li></li>
                     <li></li>
+                    <li></li>
                 </ul>
             </div>
         );
