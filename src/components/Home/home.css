@@ -2,7 +2,7 @@
 .home {
     display: flex;
     width: 100%;
-    min-height: 92vh;
+    min-height: 100vh;
     background: transparent;
 
 }
@@ -69,7 +69,7 @@
 @media screen and (max-width: 550px) {
     .home-container {
         align-self: flex-end;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-bottom: 4rem;
         color: rgb(0, 0, 0);
         font-family: 'Product Sans', sans-serif;    
