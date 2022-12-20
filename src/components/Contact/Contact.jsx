@@ -22,7 +22,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="contact">
+        <div className="contact" id='contact'>
             <h2 className="contact-title">Contact</h2>
             <div className='contact-container'>
                 <a className="contact-email" onClick={handleClick}>

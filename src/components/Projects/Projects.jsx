@@ -19,7 +19,7 @@ export default function Projects(){
         }}))
 
     return(
-        <div className="project">
+        <div className="project" id="project">
             <h2 className="project-title">Projects</h2>
             <div className="project-container">
                 {ProjectsData.map((item, index) => {

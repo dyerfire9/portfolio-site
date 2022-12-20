@@ -35,11 +35,11 @@ export default function Navbar(){
                 <div className="navbar-name" onClick={toTop}>Abdul Mannan</div>
                
                 <ul className="navbar-links">
-                    <li><a href="#" className="nav-link hover-ani">Software</a></li>
-                    <li><a href="#" className="nav-link hover-ani">Timeline</a></li>
-                    <li><a href="#" className="nav-link hover-ani">Projects</a></li>
-                    <li><a href="#" className="nav-link hover-ani">Education</a></li>
-                    <li><a href="#" className="nav-link hover-ani">Contact</a></li>
+                    <li><a href="#timeline" className="nav-link hover-ani">Timeline</a></li>
+                    <li><a href="#software" className="nav-link hover-ani">Software</a></li>
+                    <li><a href="#project" className="nav-link hover-ani">Projects</a></li>
+                    <li><a href="#education" className="nav-link hover-ani">Education</a></li>
+                    <li><a href="#contact" className="nav-link hover-ani">Contact</a></li>
                 </ul>
         
                 <div id="navburger"className="navburger" onClick={navSlide}>
