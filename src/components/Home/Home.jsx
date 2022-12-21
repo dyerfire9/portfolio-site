@@ -18,7 +18,7 @@ export default function Home() {
     return(
         <div className="home">
             <div className='home-container'>
-                <Fade duration="2000">
+                <Fade duration="2000" >
                      <h2 className="home-greeting">{greeting}</h2>
                 </Fade>
                 <Fade duration="3000" delay='100'>
