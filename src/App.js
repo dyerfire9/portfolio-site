@@ -8,7 +8,6 @@ import Education from './components/Education/Education';
 import Contact from './components/Contact/Contact'
 import LiveSquares from './components/LiveSquares/LiveSquares';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 export default function App() {
   return (
     <div className="App">
