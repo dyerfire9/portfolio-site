@@ -15,7 +15,7 @@ export default function Timeline() {
             <div className="timeline-wrapper">
                 {TimelineData.map((item, index) => {
                     return (
-                            <TimelineItemContainer key={index} item={item}/>
+                        <TimelineItemContainer key={index} item={item}/>
                     )
                 })}
             </div>
