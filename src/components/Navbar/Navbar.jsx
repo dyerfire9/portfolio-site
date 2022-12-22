@@ -30,7 +30,7 @@ export default function Navbar(){
     }
 
     return (
-        <div className="header">
+        <div className="header slide-in-top">
             <nav className="navbar">
                 <div className="navbar-name" onClick={toTop}>Abdul Mannan</div>
                
