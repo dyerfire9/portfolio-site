@@ -2,6 +2,7 @@ import React from "react"
 import "./style.css"
 import { FaGithub} from 'react-icons/fa';
 import { RiCloseLine } from "react-icons/ri";
+import { Fade, Slide} from "react-awesome-reveal";
 
 export default function ProjectsModal(props){   
     let modal = document.getElementById('projects-modal');
@@ -19,7 +20,7 @@ export default function ProjectsModal(props){
         }
   }
     return(
-        <div id='projects-modal' className={`projects-modal ${props.state.isOpen ? 'modal-open' : 'modal-closed'}`}>
+        <div id='projects-modal' className={`projects-modal ${props.state.isOpen ? 'modal-open' : 'modal-closed'} fade-in`}>
             <div className="modal-container">
                 <div className="modal-header" onClick={toggle}> <button><RiCloseLine style={style2}/></button></div>
 

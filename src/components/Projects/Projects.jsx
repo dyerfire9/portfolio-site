@@ -3,6 +3,7 @@ import{ProjectsData} from './ProjectsData'
 import ProjectsCard from './ProjectsCard/ProjectsCard'
 import ProjectsModal from './ProjectsModal/ProjectsModal'
 import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+import { Fade} from "react-awesome-reveal";
 import "./style.css";
 
 export default function Projects(){
@@ -20,11 +21,15 @@ export default function Projects(){
 
     return(
         <div className="project" id="project">
-            <h2 className="project-title">Projects</h2>
+            <Fade duration="1000" direction="up">
+                <h2 className="project-title">Projects</h2>
+            </Fade>
             <div className="project-container">
                 {ProjectsData.map((item, index) => {
                         return (
-                            <ProjectsCard key={index} item={item} state={isOpen} changeState={setIsOpen}/>
+                            <Fade duration="2000">
+                                <ProjectsCard key={index} item={item} state={isOpen} changeState={setIsOpen}/>
+                            </Fade>
                         )
                     })}            
             </div>

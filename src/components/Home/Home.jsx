@@ -18,13 +18,13 @@ export default function Home() {
     return(
         <div className="home">
             <div className='home-container'>
-                <Fade duration="2000" >
+                <Fade duration="2000" triggerOnce='true'>
                      <h2 className="home-greeting">{greeting}</h2>
                 </Fade>
-                <Fade duration="3000" delay='100'>
+                <Fade duration="3000" delay='100' triggerOnce='true'>
                     <h1 className="home-name"> I'm Abdul</h1>
                 </Fade>
-                <Fade duration="3000" delay='200'>
+                <Fade duration="3000" delay='200' triggerOnce='true'>
                     <p className="home-bio">I am a Third Year Computer Science & Statistics Student at the University of Toronto</p>
                 </Fade>
             </div>
