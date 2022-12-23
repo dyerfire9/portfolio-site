@@ -80,6 +80,7 @@
   @media screen and (max-width: 1400px){
     .navbar-links{
         width: 70%;
+        opacity: 0.95;
     }
 
     .navbar-links li{
@@ -117,7 +118,7 @@
     .navburger {
         display: block;
         cursor: pointer;
-        width: 10%
+        width: 10%;
     }
 
     .navbar-active {
@@ -139,6 +140,7 @@
     display: inline-block;
     position: relative;
     color: #0087ca;
+
   }
   
   .hover-ani::after {
