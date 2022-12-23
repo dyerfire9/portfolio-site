@@ -82,4 +82,14 @@ export let ProjectsData = [
         link: 'https://github.com/dyerfire9/Game-Menu',
         img: 'Trivia.png'
     },
+    {
+        title: 'Random Meme Generator',
+        description: 'A Random Meme Generator Web App which allows one to create Top Text/Bottom Text Memes.',
+        features: ['Randomly generated meme templates',
+                   'Real time updates',
+                   'Both computer and mobile friendly',
+                   'Technologies: React, JavaScript, HTML, CSS'],
+        link: 'https://github.com/dyerfire9/Meme-Generator',
+        img: 'meme.jpg'
+    }
 ]
