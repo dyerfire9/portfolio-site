@@ -6,7 +6,7 @@ export default function SoftwareCard(props){
     const index = props.index
     
     return(
-        <div key={index} className="card">
+        <div key={index} className="card hvr-shrink">
             <div className="card-img">
                 <img src={require(`../images/${item.image}`)} />
             </div>

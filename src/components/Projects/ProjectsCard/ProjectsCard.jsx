@@ -14,7 +14,7 @@ export default function ProjectsCard(props){
     }
 
     return(
-        <div className="projectsCard-container" onClick={() => toggle(content)}>
+        <div className="projectsCard-container hvr-shrink" onClick={() => toggle(content)}>
             <div className="projectcard-img">
                 <img src={require(`../images/${content.img}`)} />
             </div>

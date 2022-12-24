@@ -37,7 +37,7 @@ export default function ProjectsModal(props){
                         {props.state.item.features.map((feature, index) => <li key={index}>{feature}</li>)}
                     </ul>
                 </div>
-                <div className="modal-link"><a href={props.state.item.link} target='blank'><FaGithub style={style1}/> View Project</a></div>
+                <div className="modal-link hvr-grow"><a href={props.state.item.link} target='blank'><FaGithub style={style1}/> View Project</a></div>
             </div>
         </div>
     )
