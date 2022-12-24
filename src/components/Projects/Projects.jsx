@@ -27,7 +27,7 @@ export default function Projects(){
             <div className="project-container">
                 {ProjectsData.map((item, index) => {
                         return (
-                            <Fade duration="2000">
+                            <Fade duration="1000">
                                 <ProjectsCard key={index} item={item} state={isOpen} changeState={setIsOpen}/>
                             </Fade>
                         )

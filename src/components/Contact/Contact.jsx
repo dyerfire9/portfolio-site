@@ -30,14 +30,14 @@ export default function Contact() {
             </Fade>
             <div className='contact-container'>
                 <Fade cascade damping={0.2}>
-                    <a className="contact-email" onClick={handleClick}>
+                    <a className="contact-email hvr-shrink" onClick={handleClick}>
                         <MdEmail style={style1}/> 
                         <p id="email-text">Copy Email</p>
                         <MdContentCopy style={style1}/>
                     </a>
-                    <a className="contact-linkedin" href="https://linkedin.com/in/abdulmannancomp" target="_blank"><BsLinkedin style={style1}/> Linkedin <BsArrowUpRightSquare style={style1}/></a>
-                    <a className="contact-github" href="https://github.com/dyerfire9" target="_blank">< BsGithub style={style1}/> GitHub <BsArrowUpRightSquare style={style1}/></a>
-                    <a className="contact-github" target="_blank" onClick={saveFile} >< BsFillFileEarmarkPdfFill style={style1}/> Resume <BsDownload style={style1}/></a>
+                    <a className="contact-linkedin hvr-shrink" href="https://linkedin.com/in/abdulmannancomp" target="_blank"><BsLinkedin style={style1}/> Linkedin <BsArrowUpRightSquare style={style1}/></a>
+                    <a className="contact-github hvr-shrink" href="https://github.com/dyerfire9" target="_blank">< BsGithub style={style1}/> GitHub <BsArrowUpRightSquare style={style1}/></a>
+                    <a className="contact-github hvr-shrink" target="_blank" onClick={saveFile} >< BsFillFileEarmarkPdfFill style={style1}/> Resume <BsDownload style={style1}/></a>
                 </Fade>
             </div>
         </div>

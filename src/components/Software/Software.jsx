@@ -12,7 +12,7 @@ export default function Software(){
                 <h2 className="software-title">Software & Tools</h2>
             </Fade>
             <div className="software-container grow">
-                <Fade cascade damping={0.01}>
+                <Fade cascade damping={0.005}>
 
                 {SoftwareData.map((item, index) => {
                         return (
