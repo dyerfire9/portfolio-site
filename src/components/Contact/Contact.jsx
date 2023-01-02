@@ -35,8 +35,8 @@ export default function Contact() {
                         <p id="email-text">Copy Email</p>
                         <MdContentCopy style={style1}/>
                     </a>
-                    <a className="contact-linkedin hvr-shrink" href="https://linkedin.com/in/abdulmannancomp" target="_blank"><BsLinkedin style={style1}/> Linkedin <BsArrowUpRightSquare style={style1}/></a>
-                    <a className="contact-github hvr-shrink" href="https://github.com/dyerfire9" target="_blank">< BsGithub style={style1}/> GitHub <BsArrowUpRightSquare style={style1}/></a>
+                    <a className="contact-linkedin hvr-shrink" href="https://linkedin.com/in/abdulmannancomp/" target="_blank"><BsLinkedin style={style1}/> Linkedin <BsArrowUpRightSquare style={style1}/></a>
+                    <a className="contact-github hvr-shrink" href="https://github.com/dyerfire9/" target="_blank">< BsGithub style={style1}/> GitHub <BsArrowUpRightSquare style={style1}/></a>
                     <a className="contact-github hvr-shrink" target="_blank" onClick={saveFile} >< BsFillFileEarmarkPdfFill style={style1}/> Resume <BsDownload style={style1}/></a>
                 </Fade>
             </div>
