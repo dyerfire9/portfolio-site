@@ -7,7 +7,7 @@ export default [
         descriptionItems: ["Followed the software design principles to create & maintain several web applications which <b>improved workflow by 75%</b>",
                             "Developed 4 web apps which help users be more efficient and effective with their work. For example, built a <b>Leads & Reference Tracker</b> - with currently <b>over 150 users</b> - which allows one to save and track useful links one may need for a report or essay",
                             "Further optimized the web applications such as Chrome Extensions, which are just a click away and <b>improved work efficiency by 90%</b>",
-                            "Other interesting web apps include: <b>Handy Calculator, Currency Converter, SkyData</b>",
+                            "Other interesting web apps include: <b>Handy Calculator, Currency Converter, ViewMars</b>",
                             "Total Downloads from all apps are: <b>500+</b>"
                          ]
     },

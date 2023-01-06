@@ -13,6 +13,17 @@ export let ProjectsData = [
         img: 'ltrkr.jpg'
     },
     {
+        title: 'View Mars',
+        description: 'A Research Tool for Mars Research & Analysis',
+        features: ['Access to thousands of images from Mars Rovers',
+                   'Access to images from all cameras on Rovers',
+                   'Filter image data by sol (Mars day), Rover and Camera',
+                   'Download images separately or all together',
+                   'Technologies: React, JavaScript, HTML, CSS'],
+        link: 'https://github.com/dyerfire9/view-mars',
+        img: 'viewmars.png'
+    },
+    {
         title: 'Dungeon Escape',
         description: 'A Retro Dungeon Escape game inspired from the Retro Legend of Zelda games.',
         features: ['Many different objects to seed the map',
