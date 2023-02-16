@@ -11,6 +11,10 @@ This project requires Node.js to be installed in order to run
 3. npm start to start a localhost server with the website.
 4. Enjoy viewing my site!
 
+<div align="center">
+  LINK TO MY WEBSITE<br>
+  https://dyerfire9.github.io/portfolio-site/
+</div>
 
 ## Author information
 Muhammad Abdul Mannan (corresponding author and repository maintainer) <br />
