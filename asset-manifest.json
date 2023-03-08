@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.70ba4e08.css",
-    "main.js": "/portfolio-site/static/js/main.edc66389.js",
+    "main.js": "/portfolio-site/static/js/main.5dc6b65c.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/nextjs.png": "/portfolio-site/static/media/nextjs.2bc665ab1da9110bb195.png",
     "static/media/Trivia.png": "/portfolio-site/static/media/Trivia.cb52b4fe1d70e0166a53.png",
@@ -10,13 +10,13 @@
     "static/media/linux.png": "/portfolio-site/static/media/linux.afef386e1b17abb3e79d.png",
     "static/media/de.jpg": "/portfolio-site/static/media/de.10c622ad1b0ddc539e1e.jpg",
     "static/media/dungeone.jpg": "/portfolio-site/static/media/dungeone.8b9e310646758cfa8a51.jpg",
+    "static/media/resume.pdf": "/portfolio-site/static/media/resume.f789f1d01818db2ac2d1.pdf",
     "static/media/jetbrains.png": "/portfolio-site/static/media/jetbrains.8ccee69a0d9d3b268d3e.png",
     "static/media/meme.jpg": "/portfolio-site/static/media/meme.3c806c2d8789c46a7e5a.jpg",
     "static/media/vscode.png": "/portfolio-site/static/media/vscode.a61dc62c499ed3aeefdc.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/mysite.jpg": "/portfolio-site/static/media/mysite.2e4abda037c5381fdaef.jpg",
     "static/media/ms.png": "/portfolio-site/static/media/ms.1a02a5a16f270babf7fb.png",
-    "static/media/resume.pdf": "/portfolio-site/static/media/resume.0eba8f91977f0d5fff20.pdf",
     "static/media/ttt-game.jpg": "/portfolio-site/static/media/ttt-game.fc21dfbe0b2fd56058aa.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ltrkr.jpg": "/portfolio-site/static/media/ltrkr.e2ec51f27e50e4097924.jpg",
@@ -39,10 +39,10 @@
     "static/media/mongo.png": "/portfolio-site/static/media/mongo.ac47c497a10891dc7bed.png",
     "index.html": "/portfolio-site/index.html",
     "main.70ba4e08.css.map": "/portfolio-site/static/css/main.70ba4e08.css.map",
-    "main.edc66389.js.map": "/portfolio-site/static/js/main.edc66389.js.map"
+    "main.5dc6b65c.js.map": "/portfolio-site/static/js/main.5dc6b65c.js.map"
   },
   "entrypoints": [
     "static/css/main.70ba4e08.css",
-    "static/js/main.edc66389.js"
+    "static/js/main.5dc6b65c.js"
   ]
 }
