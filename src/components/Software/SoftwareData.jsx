@@ -24,8 +24,16 @@ export default [
         image: 'vue.png'
     },
     {
-        name: 'React',
+        name: 'React JS',
         image: 'react.png'
+    },
+    {
+        name: 'Node JS',
+        image: 'node.png'
+    },
+    {
+        name: 'Express JS',
+        image: 'express.png'
     },
     {
         name: 'React Native',
@@ -36,24 +44,40 @@ export default [
         image: 'mongo.png'
     },
     {
-        name: 'NextJS',
-        image: 'nextjs.png'
-    },
-    {
         name: 'Bootstrap',
         image: 'bootstrap.png'
+    },   
+    {
+        name: 'SQL',
+        image: 'sql.png'
     },
+    {
+        name: 'Postgre SQL',
+        image: 'postgre.png'
+    }, 
+    {
+        name: 'SQLite',
+        image: 'sqlite.png'
+    }, 
     {
         name: 'R ',
         image: 'r.png'
     },
     {
-        name: 'Postgre SQL',
-        image: 'postgre.png'
-    },    
+        name: 'NumPy',
+        image: 'numpy.png'
+    },
     {
-        name: 'SQL',
-        image: 'sql.png'
+        name: 'Pandas',
+        image: 'pandas.png'
+    },
+    {
+        name: 'Flask',
+        image: 'flask.png'
+    },
+    {
+        name: 'OpenCV',
+        image: 'ocv.png'
     },
     {
         name: 'C++',
