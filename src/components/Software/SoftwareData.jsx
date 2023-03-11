@@ -1,3 +1,4 @@
+// PLease note that all icons have to be resized to 240 px x 240 px, otherwise they'll be too big and distorted
 export default [
     {
         name: 'Python',
