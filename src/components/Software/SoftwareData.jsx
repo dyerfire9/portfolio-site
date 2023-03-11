@@ -104,16 +104,16 @@ export default [
         image: 'linux.png'
     },
     {
-        name: 'Android Studio',
-        image: 'androidst.png'
+        name: 'VS Code',
+        image: 'vscode.png'
     },
     {
         name: 'Jet Brains',
         image: 'jetbrains.png'
     },
     {
-        name: 'VS Code',
-        image: 'vscode.png'
+        name: 'Android Studio',
+        image: 'androidst.png'
     },
     {
         name: 'Microsoft Suite',
