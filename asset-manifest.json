@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.70ba4e08.css",
-    "main.js": "/portfolio-site/static/js/main.a7cd4287.js",
+    "main.js": "/portfolio-site/static/js/main.8dfd5e61.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Trivia.png": "/portfolio-site/static/media/Trivia.cb52b4fe1d70e0166a53.png",
     "static/media/fontawesome-webfont.eot": "/portfolio-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -16,6 +16,7 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/mysite.jpg": "/portfolio-site/static/media/mysite.2e4abda037c5381fdaef.jpg",
     "static/media/ms.png": "/portfolio-site/static/media/ms.1a02a5a16f270babf7fb.png",
+    "static/media/smd.jpg": "/portfolio-site/static/media/smd.8bf4a92df45d94c4c937.jpg",
     "static/media/ttt-game.jpg": "/portfolio-site/static/media/ttt-game.fc21dfbe0b2fd56058aa.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/ltrkr.jpg": "/portfolio-site/static/media/ltrkr.e2ec51f27e50e4097924.jpg",
@@ -38,10 +39,10 @@
     "static/media/mongo.png": "/portfolio-site/static/media/mongo.ac47c497a10891dc7bed.png",
     "index.html": "/portfolio-site/index.html",
     "main.70ba4e08.css.map": "/portfolio-site/static/css/main.70ba4e08.css.map",
-    "main.a7cd4287.js.map": "/portfolio-site/static/js/main.a7cd4287.js.map"
+    "main.8dfd5e61.js.map": "/portfolio-site/static/js/main.8dfd5e61.js.map"
   },
   "entrypoints": [
     "static/css/main.70ba4e08.css",
-    "static/js/main.a7cd4287.js"
+    "static/js/main.8dfd5e61.js"
   ]
 }
