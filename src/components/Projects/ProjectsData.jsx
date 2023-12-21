@@ -2,6 +2,17 @@
 
 export let ProjectsData = [
     {
+        title: 'Stock Market Dashboard',
+        description: 'This is a Stock Market Dashboard where one can buy, sell and track stocks from almost exchanges.',
+        features: ['Register and login functionality to create a personalized account',
+                   'Ability to purchase, track, and sell stocks directly from the app',
+                   'Wallet feature allowing users to add funds',
+                   'Secure and encrypted data handling',
+                   'Technologies: React, Express, MongoDB, Node.js'],
+        link: 'https://github.com/dyerfire9/Stock-Market-Dashboard',
+        img: 'smd.jpg'
+    },
+    {
         title: 'Leads & Reference Tracker',
         description: 'Leads & Reference Tracker allows you to Collect, Track and Save all your leads or references websites from across the web.',
         features: ['Multiple methods of saving web links',

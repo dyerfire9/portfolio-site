@@ -1,9 +1,19 @@
 export default [
-     {
+    {
+        position: 'Full Stack Developer & IT/Data Analyst',
+        company: 'ZUMA Motors',
+        time: 'April 2023 – Aug 2023',
+        isExpanded: true,
+        descriptionItems: ["Developed and maintained an inventory & CRM web solution using the MERN Stack which enabled the business to maintain its inventory & customer base in an efficient manner.",
+                           "Collected, cleaned & analyzed customer & inventory datasets through statistical techniques, resulting in a noteworthy <b>30% augmentation</b> in car sales, <b>optimized asset allocation</b>, and improved customer support",
+                           "Offered <b>IT support</b> while establishing and managing <b>Docker-based local server</b>, enhancing data integrity & facilitating secure file sharing for business data."
+                            ]
+    },
+    {
         position: 'Front End Developer',
         company: 'National Society of Black Engineers (NSBE)',
         time: 'December 2022 - February 2023',
-        isExpanded: true,
+        isExpanded: false,
         descriptionItems: ["Developed and maintained a promotional website using Javascript, HTML, and CSS while following Agile methods to ensure efficiency and user satisfaction",
                            "Collaborated with design and marketing teams to enhance web design and incorporate their designs which improved direct web traffic by <b>20%</b>",
                            "Spearheaded an efficient SEO campaign resulting in a <b>60%</b> organic web traffic increase and <b>top 3 web rank</b> through leveraging keyword analysis and Google Analytics",
@@ -41,5 +51,5 @@ export default [
                            "Conducted over <b>50</b> market research projects in order to identify potential markets and leads which increased the overall customer base by over <b>30%</b>",
                            "Developed landing page prototypes using React and JavaScript and had critique sessions with peers which improved code quality",
                            "Published a blog that got the most hits in one day, in company history"]
-    },
+    }
 ]
