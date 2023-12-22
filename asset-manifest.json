@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.70ba4e08.css",
-    "main.js": "/portfolio-site/static/js/main.5050d64a.js",
+    "main.css": "/portfolio-site/static/css/main.1fe66a76.css",
+    "main.js": "/portfolio-site/static/js/main.5fd6691d.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Trivia.png": "/portfolio-site/static/media/Trivia.cb52b4fe1d70e0166a53.png",
     "static/media/fontawesome-webfont.eot": "/portfolio-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -38,11 +38,11 @@
     "static/media/sql.png": "/portfolio-site/static/media/sql.fbd02d1edb24f950af37.png",
     "static/media/mongo.png": "/portfolio-site/static/media/mongo.ac47c497a10891dc7bed.png",
     "index.html": "/portfolio-site/index.html",
-    "main.70ba4e08.css.map": "/portfolio-site/static/css/main.70ba4e08.css.map",
-    "main.5050d64a.js.map": "/portfolio-site/static/js/main.5050d64a.js.map"
+    "main.1fe66a76.css.map": "/portfolio-site/static/css/main.1fe66a76.css.map",
+    "main.5fd6691d.js.map": "/portfolio-site/static/js/main.5fd6691d.js.map"
   },
   "entrypoints": [
-    "static/css/main.70ba4e08.css",
-    "static/js/main.5050d64a.js"
+    "static/css/main.1fe66a76.css",
+    "static/js/main.5fd6691d.js"
   ]
 }
