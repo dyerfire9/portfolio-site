@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "body-scroll-lock": "^4.0.0-beta.0",
     "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001571",
     "file-saver": "^2.0.5",
     "font-awesome": "^4.7.0",
     "fullpage.js": "^4.0.15",
