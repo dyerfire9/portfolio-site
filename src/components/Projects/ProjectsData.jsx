@@ -1,6 +1,6 @@
 
 
-export let ProjectsData = [
+export const ProjectsData = [
     {
         title: 'Stock Market Dashboard',
         description: 'This is a Stock Market Dashboard where one can buy, sell and track stocks from almost exchanges.',
