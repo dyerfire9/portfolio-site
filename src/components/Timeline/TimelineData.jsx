@@ -1,9 +1,19 @@
 export default [
     {
+        position: 'Full Stack Developer',
+        company: 'BK Tax Solutions Inc',
+        time: 'Nov 2023 – Mar 2024',
+        isExpanded: true,
+        descriptionItems: ["Spearheaded development and maintenance of the firm website, implementing SEO strategies that boosted customer base by 20%",
+                           "Implemented PERN Stack to organize client database, crafting an API and web app for secure data management, enhancing the firm’s operational efficiency.",
+                           "Delivered web dev and IT solutions to clientele, resulting in a notable 30% increase in repeat clients for the firm."
+                            ]
+    },
+    {
         position: 'Full Stack Developer & IT/Data Analyst',
         company: 'ZUMA Motors',
         time: 'April 2023 – Aug 2023',
-        isExpanded: true,
+        isExpanded: false,
         descriptionItems: ["Developed and maintained an inventory & CRM web solution using the MERN Stack which enabled the business to maintain its inventory & customer base in an efficient manner.",
                            "Collected, cleaned & analyzed customer & inventory datasets through statistical techniques, resulting in a noteworthy <b>30% augmentation</b> in car sales, <b>optimized asset allocation</b>, and improved customer support",
                            "Offered <b>IT support</b> while establishing and managing <b>Docker-based local server</b>, enhancing data integrity & facilitating secure file sharing for business data."
