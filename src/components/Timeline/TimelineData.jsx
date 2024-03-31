@@ -1,4 +1,4 @@
-export default [
+const timelineData = [
     {
         position: 'Full Stack Developer',
         company: 'BK Tax Solutions Inc',
@@ -63,3 +63,5 @@ export default [
                            "Published a blog that got the most hits in one day, in company history"]
     }
 ]
+
+export default timelineData
