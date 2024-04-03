@@ -5,7 +5,7 @@ const timelineData = [
         time: 'Nov 2023 – Mar 2024',
         isExpanded: true,
         descriptionItems: ["Spearheaded development and maintenance of the firm website, implementing SEO strategies that boosted customer base by 20%",
-                           "Implemented PERN Stack to organize client database, crafting an API and web app for secure data management, enhancing the firm’s operational efficiency.",
+                           "Implemented PERN Stack (PostgreSQL, Express, React, Node) to organize client database, crafting an API and web app for secure data management, enhancing the firm’s operational efficiency.",
                            "Delivered web dev and IT solutions to clientele, resulting in a notable 30% increase in repeat clients for the firm."
                             ]
     },
