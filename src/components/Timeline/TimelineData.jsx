@@ -1,18 +1,28 @@
 const timelineData = [
     {
+        position: 'Computer Repair & IT Support Specialist',
+        company: 'Geek Squad',
+        time: 'Nov 2023 – Present',
+        isExpanded: true,
+        descriptionItems: ["Conduct diagnostics, repairs, and upgrades on a wide range of devices including Windows and macOS systems, using tools such as Dell SupportAssist, Apple Diagnostics, Bash, and internal GS tools to resolve hardware faults, OS issues, and performance slowdowns.",
+                           "Resolve complex technical issues including virus removal, data recovery, OS reinstallations, and driver conflicts, while ensuring secure handling of customer data and system integrity through disk imaging and partition management (e.g., Disk Utility, Acronis).",
+                           "Advise clients on preventative maintenance and cybersecurity best practices, including password management, software patching, and Wi-Fi encryption, resulting in reduced repeat service calls and improved customer trust."
+                            ]
+    },
+    {
         position: 'Full Stack Developer',
         company: 'BK Tax Solutions Inc',
-        time: 'Nov 2023 – Mar 2024',
-        isExpanded: true,
-        descriptionItems: ["Spearheaded development and maintenance of the firm website, implementing SEO strategies that boosted customer base by 20%",
+        time: 'Nov 2023 – Aug 2024',
+        isExpanded: false,
+        descriptionItems: ["Spearheaded development and maintenance of the firm website, implementing <b>SEO strategies</b> that boosted customer base by <b>20%</b>",
                            "Implemented PERN Stack (PostgreSQL, Express, React, Node) to organize client database, crafting an API and web app for secure data management, enhancing the firm’s operational efficiency.",
-                           "Delivered web dev and IT solutions to clientele, resulting in a notable 30% increase in repeat clients for the firm."
+                           "Delivered web dev and IT solutions to clientele, resulting in a notable <b>30%</b> increase in repeat clients for the firm."
                             ]
     },
     {
         position: 'Full Stack Developer & IT/Data Analyst',
         company: 'ZUMA Motors',
-        time: 'April 2023 – Aug 2023',
+        time: 'April 2023 – Sept 2023',
         isExpanded: false,
         descriptionItems: ["Developed and maintained an inventory & CRM web solution using the MERN Stack which enabled the business to maintain its inventory & customer base in an efficient manner.",
                            "Collected, cleaned & analyzed customer & inventory datasets through statistical techniques, resulting in a noteworthy <b>30% augmentation</b> in car sales, <b>optimized asset allocation</b>, and improved customer support",

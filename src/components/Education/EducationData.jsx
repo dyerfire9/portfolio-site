@@ -10,12 +10,15 @@ export const EducationData = [
                                 title: 'Program: Computer Science',
                                 list: []},
                             {
-                                title: 'Current Year: 3',
+                                title: 'Current Year: 4',
                                 list: []},                            
                             {
                                 
                                 title: 'Relevant Past Courses',
                                 list: [
+                                    'Seminar in Cognitive Science & AI (COG403)',
+                                    'Introduction to Artificial Intelligence (CSC384)', 
+                                    'Data Structures & Analysis (CSC263)',
                                     'Minds & Machines (PHL342)',
                                     'Methods of Data Analysis II (STA303)',
                                     'Introduction to Database Systems (CSC343)',

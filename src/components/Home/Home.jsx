@@ -25,7 +25,7 @@ export default function Home() {
                     <h1 className="home-name"> I'm Abdul</h1>
                 </Fade>
                 <Fade duration="3000" delay='200' triggerOnce='true'>
-                    <p className="home-bio">I'm a Third Year Computer Science & Statistics Student at the University of Toronto</p>
+                    <p className="home-bio">I'm a Fourth Year Computer Science & Statistics Student at the University of Toronto</p>
                 </Fade>
             </div>
         </div>
