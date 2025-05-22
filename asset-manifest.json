@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.1fe66a76.css",
-    "main.js": "/portfolio-site/static/js/main.c6e0eb28.js",
+    "main.js": "/portfolio-site/static/js/main.8d1cf305.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-site/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Trivia.png": "/portfolio-site/static/media/Trivia.cb52b4fe1d70e0166a53.png",
     "static/media/fontawesome-webfont.eot": "/portfolio-site/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -26,6 +26,7 @@
     "static/media/react.png": "/portfolio-site/static/media/react.78e6114482137d748489.png",
     "static/media/kwgt.png": "/portfolio-site/static/media/kwgt.efbbef0e5357be43995e.png",
     "static/media/klwp.png": "/portfolio-site/static/media/klwp.1e285222f1c8fc7b7f07.png",
+    "static/media/cog.jpg": "/portfolio-site/static/media/cog.963d64a45527bcb1bf59.jpg",
     "static/media/ttt.png": "/portfolio-site/static/media/ttt.c768bc1cfc1b4775a269.png",
     "static/media/java.png": "/portfolio-site/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/reactn.png": "/portfolio-site/static/media/reactn.5a29ff0f7ddc2eb01cc1.png",
@@ -39,10 +40,10 @@
     "static/media/mongo.png": "/portfolio-site/static/media/mongo.ac47c497a10891dc7bed.png",
     "index.html": "/portfolio-site/index.html",
     "main.1fe66a76.css.map": "/portfolio-site/static/css/main.1fe66a76.css.map",
-    "main.c6e0eb28.js.map": "/portfolio-site/static/js/main.c6e0eb28.js.map"
+    "main.8d1cf305.js.map": "/portfolio-site/static/js/main.8d1cf305.js.map"
   },
   "entrypoints": [
     "static/css/main.1fe66a76.css",
-    "static/js/main.c6e0eb28.js"
+    "static/js/main.8d1cf305.js"
   ]
 }
