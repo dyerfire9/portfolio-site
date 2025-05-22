@@ -2,6 +2,17 @@
 
 export const ProjectsData = [
     {
+        title: 'Cognitive Learning Model',
+        description: 'Simulates a typing task using cognitive models with and without prior knowledge.',
+        features: ['Implements a dual-system agent (explicit + implicit learning)',
+                   'Tracks accuracy across trials with performance visualization',
+                   'Supports both symbolic rule loading and dynamic learning',
+                   'Graphs learning curves to analyze model behavior',
+                   'Technologies: Python, pyClarion, matplotlib'],
+        link: 'https://github.com/dyerfire9/cognitve-model',
+        img: 'cog.jpg'
+    },
+    {
         title: 'Stock Market Dashboard',
         description: 'This is a Stock Market Dashboard where one can buy, sell and track stocks from almost exchanges.',
         features: ['Register and login functionality to create a personalized account',
