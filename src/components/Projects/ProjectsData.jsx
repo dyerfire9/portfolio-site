@@ -8,7 +8,7 @@ export const ProjectsData = [
                    'Tracks accuracy across trials with performance visualization',
                    'Supports both symbolic rule loading and dynamic learning',
                    'Graphs learning curves to analyze model behavior',
-                   'Technologies: Python, pyClarion, matplotlib'],
+                   'Technologies: Python, pyClarion, Pandas, matplotlib'],
         link: 'https://github.com/dyerfire9/cognitve-model',
         img: 'cog.jpg'
     },
