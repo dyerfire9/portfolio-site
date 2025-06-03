@@ -12,6 +12,17 @@ export const ProjectsData = [
         link: 'https://github.com/dyerfire9/cognitve-model',
         img: 'cog.jpg'
     },
+        {
+        title: 'Orbital Diagram App',
+        description: 'A React app that visualizes electron configurations and orbital diagrams for all 118 periodic elements',
+        features: ['Lookup electron configurations by atomic number',
+                   'Dynamic orbital diagram generator',
+                   'Built-in help section explaining key principles (Aufbau, Pauli Exclusion, Hund’s Rule)',
+                   'Color-coded categories with fixed legend panel',
+                   'Technologies: React, JS, CSS'],
+        link: 'https://dyerfire9.github.io/orbitals-app/',
+        img: 'orbit.jpg'
+    },
     {
         title: 'Stock Market Dashboard',
         description: 'This is a Stock Market Dashboard where one can buy, sell and track stocks from almost exchanges.',
